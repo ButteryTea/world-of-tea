@@ -1,0 +1,1518 @@
+/*fonts***********
+font-family: 'Bree Serif', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*****************/
+
+/*color palette*************
+pale green: #BFD891;
+light green: #AEDD64;
+green:#92C638;
+dark green: #56791A;
+brown: #7F5539;
+cream: #FFEDD8;
+****************/
+
+*{
+    margin: 0;
+}
+
+/*header************************/
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    margin-right: 70px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.navbar-item-text-home{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-about{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-tea{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-contact{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-home:hover{
+    color: #AEDD64;
+}
+
+.navbar-item-text-about:hover{
+    color: #AEDD64;
+}
+
+.navbar-item-text-tea:hover{
+    color: #AEDD64;
+}
+
+.navbar-item-text-contact:hover{
+    color: #AEDD64;
+}
+
+
+/*banner***********************************/
+.spread-image{
+    background-image: url("images/tea 101.jpg");
+    width:100%;
+    background-size:cover;
+    position: static;
+}
+
+.banner-text{
+    position: absolute;
+    text-align: center;
+    left: 20%;
+    right: 20%;
+    top: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.title-content{
+    text-align: center;
+    color: white;
+
+    margin-left: 122px;
+    margin-right: 122px;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+/*recommendations*********************/
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+}
+
+/*beginners**************************/
+.beginners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 45px;
+}
+
+.beginners-title{
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.beginners2{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.beginners-pic{
+    width: 400px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+.beginners-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 550px;
+}
+
+.beginners-content1{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.beginners-content-icon{
+    width: 75px;
+    margin-right: 30px;
+}
+
+.beginners-content-text{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+}
+
+.beginners-content2{
+    display: flex;
+    align-items: center;
+}
+
+.beginners-content-icon2{
+    width: 75px;
+    margin-right: 30px;
+}
+
+.beginners-content-text2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    color: #7F5539;
+}
+
+/*beginner-sweet-section****************/
+.beginner-sweet-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.beginner-sweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.beginner-sweet-icon{
+    width: 77px;
+    margin-right: 30px;
+}
+
+.beginner-sweet-title{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+}
+
+.beginner-sweet-types{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.beginner-sweet1-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-sweet1-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.beginner-sweet2-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-sweet2-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.beginner-sweet3-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-sweet3-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+/*beginner-bitter-section****************/
+.beginner-bitter-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.beginner-bitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.beginner-bitter-icon{
+    width: 77px;
+    margin-right: 30px;
+}
+
+.beginner-bitter-title{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+}
+
+.beginner-bitter-types{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.beginner-bitter1-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-bitter1-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.beginner-bitter2-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-bitter2-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.beginner-bitter3-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.beginner-bitter3-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+/*drinkers**************************/
+.drinkers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 70px;
+}
+
+.drinkers-title{
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.drinkers2{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.drinkers-pic{
+    width: 400px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+.drinkers-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 550px;
+}
+
+.drinkers-content1{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.drinkers-content-icon{
+    width: 75px;
+    margin-right: 20px;
+}
+
+.drinkers-content-text{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+}
+
+.drinkers-content2{
+    display: flex;
+    align-items: center;
+}
+
+.drinkers-content-icon2{
+    width: 75px;
+    margin-right: 30px;
+}
+
+.drinkers-content-text2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    color: #7F5539;
+}
+
+/*drinkers-sweet-section****************/
+.drinkers-sweet-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.drinkers-sweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.drinkers-sweet-icon{
+    width: 77px;
+    margin-right: 30px;
+}
+
+.drinkers-sweet-title{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+}
+
+.drinkers-sweet-types{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.drinkers-sweet1-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-sweet1-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.drinkers-sweet2-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-sweet2-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.drinkers-sweet3-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-sweet3-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+/*drinkers-bitter-section****************/
+.drinkers-bitter-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.drinkers-bitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.drinkers-bitter-icon{
+    width: 77px;
+    margin-right: 30px;
+}
+
+.drinkers-bitter-title{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    color: #7F5539;
+    font-weight: 400;
+}
+
+.drinkers-bitter-types{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.drinkers-bitter1-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-bitter1-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.drinkers-bitter2-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-bitter2-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.drinkers-bitter3-pic{
+    height: 215px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.drinkers-bitter3-text{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+/*footer*******************************/
+.footer{
+    background-color: #7F5539;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+.logo2{
+    width:230px;
+    padding-bottom: 30px;
+}
+
+.footer-navbar1{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    padding: 0;
+}
+
+.navbar1-item{
+    font-size: 18px;
+}
+
+.navbar1-item a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navbar1-item-home{
+    color: #FFEDD8;
+}
+
+.navbar1-item-about{
+    color: #FFEDD8;
+}
+
+.navbar1-item-tea{
+    color:#FFEDD8;
+}
+
+.navbar1-item-contact{
+    color: #FFEDD8;
+}
+
+.navbar1-item-home:hover{
+    color: #FFFF;
+}
+
+.navbar1-item-about:hover{
+    color: #FFFF;
+}
+
+.navbar1-item-tea:hover{
+    color: #FFFF;
+}
+
+.navbar1-item-contact:hover{
+    color: #FFFF;
+}
+
+.footer-navbar2{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    padding: 0;
+}
+
+.navbar2-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar2-item a{
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar2-item:not(:last-child){
+    border-right: 2px solid #FFFF;
+}
+
+.navbar2-item-text-history{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-categories{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-uses{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-reco{
+    color: #92C638;
+}
+
+.navbar2-item-text-history:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-categories:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-uses:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-reco:hover{
+    color: #BFD891;
+}
+
+.hr{
+    width:90%;
+    text-align:center;
+    background-color:white;
+    height: 1.7px;
+    border-radius: 5px;
+}
+
+.subfooter{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #FFEDD8;
+    font-weight: 600;
+}
+
+/*media-queries 360px****************/
+@media only screen and (max-width:360px){
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .header-logo{
+        margin: 0;
+        width: 150px;
+        padding-bottom: 17px;
+    }
+
+    .nav{
+        margin: 0;
+        padding-bottom: 12px;
+    }
+
+    .navbar{
+        padding: 0;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-item{
+        padding: 0;
+        font-size: 15px;
+    }
+
+    /*banner********************************/
+    .spread-image{
+        height:220px;
+        position: absolute;
+    }
+
+    .banner-text{
+        left: 0;
+        right: 0;
+        padding-top: 70px;
+        top:5%;
+        left: 50%;
+        transform: translate(-50%,-5%);
+        position: relative;
+    }
+
+    .title{
+        font-size: 30px;
+        padding:0;
+    }
+
+    .title-content{
+        font-size: 11px;
+        margin: 0;
+        margin-right: 70px;
+        margin-left: 70px;
+        padding:0;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        letter-spacing: 0;
+    }
+
+    .page-title{
+        font-size: 22px;
+        margin-top: 25px;
+        padding: 0;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .white-tea{
+        max-width: 300px;
+        margin-bottom: 35px;
+    }
+
+    .background{
+        margin-bottom: 0;
+    }
+
+    .background-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .background2{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .background-pic{
+        width: 300px;
+        height: 180px;
+    }
+
+    .background-content{
+        width: 300px;
+        align-items: center;
+    }
+
+    .content1{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+    .content-icon{
+        width: 50px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .content-text{
+        font-size: 12px;
+    }
+
+    .content2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-icon2{
+        width: 50px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .content-text2{
+        font-size: 12px;
+    }
+
+    .popular-teas{
+        margin-top: 30px;
+    }
+
+    .popular-title{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .popular-types{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular1{
+        margin-bottom: 30px;
+    }
+
+    .popular1-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .popular1-text{
+        font-size: 18px;
+    }
+
+    .popular2{
+        margin-bottom: 30px;
+    }
+
+    .popular2-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .popular2-text{
+        font-size: 18px;
+    }
+
+    .popular3-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .popular3-text{
+        font-size: 18px;
+    }
+
+    /*footer****************************/
+    .logo2{
+        width: 180px;
+    }
+
+    .footer-navbar1{
+        width: 280px;
+    }
+
+    .navbar1-item{
+        font-size: 15px;
+    }
+
+    .footer-navbar2{
+        margin: 0;
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar2-item{
+        padding:0;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        padding-left: 13px;
+        padding-right: 15px;
+    }
+
+    .navbar2-item-text{
+        font-size: 12px;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .navbar2-item:nth-last-child(2) {
+        border-right: none;
+    }
+
+    .navbar2-item:last-child{
+        border-left: 2px solid #FFFF;
+    }
+
+    .hr{
+        width: 80%;
+        height: 1px;
+    }
+
+    .subfooter{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+/*media-queries 360px****************/
+@media only screen and (max-width:360px){
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .header-logo{
+        margin: 0;
+        width: 150px;
+        padding-bottom: 17px;
+    }
+
+    .nav{
+        margin: 0;
+        padding-bottom: 12px;
+    }
+
+    .navbar{
+        padding: 0;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-item{
+        padding: 0;
+        font-size: 15px;
+    }
+
+    /*banner********************************/
+    .spread-image{
+        height:220px;
+        position: absolute;
+    }
+
+    .banner-text{
+        left: 0;
+        right: 0;
+        padding-top: 70px;
+        top:5%;
+        left: 50%;
+        transform: translate(-50%,-5%);
+        position: relative;
+    }
+
+    .title{
+        font-size: 30px;
+        padding:0;
+    }
+
+    .title-content{
+        font-size: 11px;
+        margin: 0;
+        margin-right: 70px;
+        margin-left: 70px;
+        padding:0;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        letter-spacing: 0;
+    }
+
+    .page-title{
+        font-size: 22px;
+        margin-top: 25px;
+        padding: 0;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    /*recommendations**************/
+    .recommendations{
+        max-width: 300px;
+        margin-bottom: 35px;
+    }
+
+    /*beginners******************/
+    .beginners{
+        margin-bottom: 0;
+    }
+
+    .beginners-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .beginners2{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .beginners-pic{
+        width: 300px;
+        height: 180px;
+    }
+
+    .beginners-content{
+        width: 300px;
+        align-items: center;
+    }
+
+    .beginners-content1{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+    .beginners-content-icon{
+        width: 50px;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .beginners-content-text{
+        font-size: 22px;
+    }
+
+    .beginners-content2{
+        align-items: center;
+    }
+
+    .beginners-content-icon2{
+        width: 50px;
+        margin: 0;
+        margin-bottom: 25px;
+        margin-right: 22px;
+    }
+
+    .beginners-content-text2{
+        font-size: 12px;
+    }
+
+    /*beginner-sweet-section************/
+    .beginner-sweet-section{
+        margin-top: 30px;
+    }
+
+    .beginner-sweet{
+        margin-bottom: 30px;
+    }
+
+    .beginner-sweet-icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .beginner-sweet-title{
+        font-size: 22px;
+    }
+
+    .beginner-sweet-types{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beginner-sweet1{
+        margin-bottom: 30px;
+    }
+
+    .beginner-sweet1-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-sweet1-text{
+        font-size: 18px;
+    }
+
+    .beginner-sweet2{
+        margin-bottom: 30px;
+    }
+
+    .beginner-sweet2-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-sweet2-text{
+        font-size: 18px;
+    }
+
+    .beginner-sweet3-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-sweet3-text{
+        font-size: 18px;
+    }
+
+    /*beginner-bitter-section************/
+    .beginner-bitter-section{
+        margin-top: 30px;
+    }
+
+    .beginner-bitter{
+        margin-bottom: 30px;
+    }
+
+    .beginner-bitter-icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .beginner-bitter-title{
+        font-size: 22px;
+    }
+
+    .beginner-bitter-types{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beginner-bitter1{
+        margin-bottom: 30px;
+    }
+
+    .beginner-bitter1-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-bitter1-text{
+        font-size: 18px;
+    }
+
+    .beginner-bitter2{
+        margin-bottom: 30px;
+    }
+
+    .beginner-bitter2-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-bitter2-text{
+        font-size: 18px;
+    }
+
+    .beginner-bitter3-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .beginner-bitter3-text{
+        font-size: 18px;
+    }
+
+    /*drinkers******************/
+    .drinkers{
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .drinkers-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .drinkers2{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .drinkers-pic{
+        width: 300px;
+        height: 180px;
+    }
+
+    .drinkers-content{
+        width: 300px;
+        align-items: center;
+    }
+
+    .drinkers-content1{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+    .drinkers-content-icon{
+        width: 50px;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .drinkers-content-text{
+        font-size: 22px;
+    }
+
+    .drinkers-content2{
+        align-items: center;
+    }
+
+    .drinkers-content-icon2{
+        width: 50px;
+        margin: 0;
+        margin-bottom: 25px;
+        margin-right: 22px;
+    }
+
+    .drinkers-content-text2{
+        font-size: 12px;
+    }
+
+    /*drinkers-sweet-section************/
+    .drinkers-sweet-section{
+        margin-top: 30px;
+    }
+
+    .drinkers-sweet{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-sweet-icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .drinkers-sweet-title{
+        font-size: 22px;
+    }
+
+    .drinkers-sweet-types{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .drinkers-sweet1{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-sweet1-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-sweet1-text{
+        font-size: 18px;
+    }
+
+    .drinkers-sweet2{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-sweet2-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-sweet2-text{
+        font-size: 18px;
+    }
+
+    .drinkers-sweet3-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-sweet3-text{
+        font-size: 18px;
+    }
+
+    /*drinkers-bitter-section************/
+    .drinkers-bitter-section{
+        margin-top: 30px;
+    }
+
+    .drinkers-bitter{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-bitter-icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .drinkers-bitter-title{
+        font-size: 22px;
+    }
+
+    .drinkers-bitter-types{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .drinkers-bitter1{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-bitter1-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-bitter1-text{
+        font-size: 18px;
+    }
+
+    .drinkers-bitter2{
+        margin-bottom: 30px;
+    }
+
+    .drinkers-bitter2-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-bitter2-text{
+        font-size: 18px;
+    }
+
+    .drinkers-bitter3-pic{
+        width: 250px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    .drinkers-bitter3-text{
+        font-size: 18px;
+    }
+
+    /*footer****************************/
+    .logo2{
+        width: 180px;
+    }
+
+    .footer-navbar1{
+        width: 280px;
+    }
+
+    .navbar1-item{
+        font-size: 15px;
+    }
+
+    .footer-navbar2{
+        margin: 0;
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar2-item{
+        padding:0;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        padding-left: 13px;
+        padding-right: 15px;
+    }
+
+    .navbar2-item a{
+        font-size: 12px;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .navbar2-item:nth-last-child(2) {
+        border-right: none;
+    }
+
+    .navbar2-item:last-child{
+        border-left: 2px solid #FFFF;
+    }
+
+    .hr{
+        width: 80%;
+        height: 1px;
+    }
+
+    .subfooter{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}

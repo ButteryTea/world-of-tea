@@ -1,0 +1,724 @@
+/*fonts***********
+font-family: 'Bree Serif', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*****************/
+
+/*color palette*************
+pale green: #BFD891;
+light green: #AEDD64;
+green:#92C638;
+dark green: #56791A;
+brown: #7F5539;
+cream: #FFEDD8;
+****************/
+
+*{
+    margin: 0;
+}
+
+/*header************************/
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    margin-right: 70px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.navbar-item-text-home{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-about{
+    text-decoration: none;
+    color: #56791A;
+}
+
+.navbar-item-text-tea{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-contact{
+    text-decoration: none;
+    color: #92C638;
+}
+
+.navbar-item-text-home:hover{
+    color: #AEDD64;
+}
+
+.navbar-item-text-about:hover{
+    color: #BFD891;
+}
+
+.navbar-item-text-tea:hover{
+    color: #AEDD64;
+}
+
+.navbar-item-text-contact:hover{
+    color: #AEDD64;
+}
+
+/*banner***********************************/
+.spread-image{
+    background-image: url("images/about us banner.jpg");
+    width:100%;
+    background-size:cover;
+    position: static;
+}
+
+.banner-text{
+    position: absolute;
+    text-align: center;
+    left: 20%;
+    right: 20%;
+    top: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.title-content{
+    text-align: center;
+    color: white;
+
+    margin-left: 122px;
+    margin-right: 122px;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+/*page-title****************************/
+.page-title{
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    color:#7F5539;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/*about-us*********************/
+.about-us{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.about-us-pic{
+    width: 500px;
+    border-radius: 30px;
+    height: 320px;
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    max-width: 570px;
+    margin-top: 15px;
+}
+
+.about-us-title{
+    font-size: 45px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    color: #7F5539;
+    padding-bottom: 40px;
+}
+
+.about-us-text{
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #7F5539;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+/*about-cards*********************/
+.about-cards{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+}
+
+/*history-of-tea-card*****************/
+.what-we-do-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 300px;
+    height: 390px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #AEDD64;
+    border-radius: 30px;
+}
+
+.what-we-book{
+    width: 87px;
+    padding-bottom: 20px;
+}
+
+.what-title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.what-content{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #7F5539;
+
+    padding-top: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*mission-card************************/
+.mission-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 300px;
+    height: 390px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #BFD891;
+    border-radius: 30px;
+}
+
+.mission-bulb{
+    width: 87px;
+    padding-bottom: 20px;
+}
+
+.mission-title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.mission-content{
+    text-align: center;
+    font-size: 15.5px;
+    font-family: 'Quicksand', sans-serif;
+    color: #7F5539;
+
+    padding-top: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*vision-card*************/
+.vision-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 300px;
+    height: 390px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #AEDD64;
+    border-radius: 30px;
+}
+
+.vision-question{
+    width: 87px;
+    padding-bottom: 20px;
+}
+
+.vision-title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #7F5539;
+}
+
+.vision-content{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #7F5539;
+
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/*footer***********************/
+.footer{
+    background-color: #7F5539;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+.logo2{
+    width:230px;
+    padding-bottom: 30px;
+}
+
+.footer-navbar1{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    padding: 0;
+}
+
+.navbar1-item{
+    font-size: 18px;
+}
+
+.navbar1-item a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navbar1-item-home{
+    color:#FFEDD8;
+}
+
+.navbar1-item-about{
+    color: #92C638;
+}
+
+.navbar1-item-tea{
+    color:#FFEDD8;
+}
+
+.navbar1-item-contact{
+    color: #FFEDD8;
+}
+
+.navbar1-item-home:hover{
+    color: #FFFF;
+}
+
+.navbar1-item-about:hover{
+    color: #AEDD64
+}
+
+.navbar1-item-tea:hover{
+    color: #FFFF;
+}
+
+.navbar1-item-contact:hover{
+    color: #FFFF;
+}
+
+.footer-navbar2{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    padding: 0;
+}
+
+.navbar2-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar2-item a{
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar2-item:not(:last-child){
+    border-right: 2px solid #FFFF;
+}
+
+.navbar2-item-text-history{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-categories{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-uses{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-reco{
+    color: #FFEDD8;
+}
+
+.navbar2-item-text-history:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-categories:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-uses:hover{
+    color: #FFFF;
+}
+
+.navbar2-item-text-reco:hover{
+    color: #FFFF;
+}
+
+.hr{
+    width:90%;
+    text-align:center;
+    background-color:white;
+    height: 1.7px;
+    border-radius: 5px;
+}
+
+.subfooter{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #FFEDD8;
+    font-weight: 600;
+}
+
+/*media-queries 360px****************/
+@media only screen and (max-width:360px){
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .header-logo{
+        margin: 0;
+        width: 150px;
+        padding-bottom: 17px;
+    }
+
+    .nav{
+        margin: 0;
+        padding-bottom: 12px;
+    }
+
+    .navbar{
+        padding: 0;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-item{
+        padding: 0;
+        font-size: 15px;
+    }
+
+    /*banner********************************/
+    .spread-image{
+        height:220px;
+        position: absolute;
+    }
+
+    .banner-text{
+        left: 0;
+        right: 0;
+        padding-top: 70px;
+        top:5%;
+        left: 50%;
+        transform: translate(-50%,-5%);
+        position: relative;
+    }
+
+    .title{
+        font-size: 30px;
+        padding:0;
+    }
+
+    .title-content{
+        font-size: 11px;
+        margin: 0;
+        margin-right: 70px;
+        margin-left: 70px;
+        padding:0;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        letter-spacing: 0;
+    }
+
+    .page-title{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    /*about us****************************/
+    .about-us{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-pic{
+        width:300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .about-us-content{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .about-us-title{
+        font-size: 30px;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 12px;
+    }
+
+    .about-us-text{
+        font-size: 11px;
+        padding: 0;
+    }
+
+    /*about cards*************************/
+    .about-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    /*what-we-do-card************/
+    .what-we-do-card{
+        padding:0;
+        height: 260px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .what-we-book{
+        width: 60px;
+        padding:0;
+        padding-bottom: 15px;
+    }
+
+    .what-title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .what-content{
+        font-size: 12px;
+        padding:0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*mission-card************/
+    .mission-card{
+        padding:0;
+        height: 260px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mission-bulb{
+        width: 60px;
+        padding:0;
+        padding-bottom: 15px;
+    }
+
+    .mission-title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .mission-content{
+        font-size: 12px;
+        padding:0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*vision-card************/
+    .vision-card{
+        padding:0;
+        height: 260px;
+        margin-bottom: 40px;
+    }
+
+    .vision-question{
+        width: 60px;
+        padding:0;
+        padding-bottom: 15px;
+    }
+
+    .vision-title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .vision-content{
+        font-size: 12px;
+        padding:0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*footer****************************/
+    .logo2{
+        width: 180px;
+    }
+
+    .footer-navbar1{
+        width: 280px;
+    }
+
+    .navbar1-item{
+        font-size: 15px;
+    }
+
+    .footer-navbar2{
+        margin: 0;
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .navbar2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar2-item{
+        padding:0;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        padding-left: 13px;
+        padding-right: 15px;
+    }
+
+    .navbar2-item a{
+        font-size: 12px;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .navbar2-item:nth-last-child(2) {
+        border-right: none;
+    }
+
+    .navbar2-item:last-child{
+        border-left: 2px solid #FFFF;
+    }
+
+    .hr{
+        width: 80%;
+        height: 1px;
+    }
+
+    .subfooter{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
